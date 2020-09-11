@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #ccc;
+}
+
+a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background-color: #444;
+  padding: .5rem 1rem .6rem;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+img {
+  max-width: 5rem;
+  margin: 1rem;
+}
+
+ul {
+  padding-left: 1rem;
+}
+
+li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+p {
+  width: 24rem;
+}
+
+h3, h4 {
+  margin: 0;
+}
